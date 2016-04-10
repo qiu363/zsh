@@ -83,6 +83,7 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="vim"
+alias la="ll -a"
 alias -s js=vi
 alias -s py=vi
 alias -s html=vi
