@@ -24,12 +24,3 @@
     $ ./install.py or ./uninstall.py
     ```
 
-4. add incremental
-    ```
-    $ cd ~/.oh-my-zsh/plugins/
-    $ mkdir incr
-    $ cd incr
-    $ wget http://mimosa-pudica.net/src/incr-0.2.zsh
-    $ source incr*.zsh
-    ```
-

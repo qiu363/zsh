@@ -53,7 +53,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/vim/bin:$HOME/node/bin
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -84,7 +84,7 @@ export LANG=en_US.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="vim"
 alias la="ll -a"
-alias -s js=vi
+#alias -s js=vi
 alias -s py=vi
 alias -s html=vi
 alias -s css=vi
@@ -97,4 +97,5 @@ alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
 
 [[ -s /etc/profile.d/autojump.sh ]] && . /etc/profile.d/autojump.sh
+
 
